@@ -1,4 +1,4 @@
-import { PLUGIN_EVENTS } from 'https://main--franklin-library-host--dylandepass.hlx.live/tools/sidekick/library/index.js';
+import { PLUGIN_EVENTS } from 'https://www.hlx.live/tools/sidekick/library/index.js';
 
 export async function decorate(container, data, query) {
     const group = document.createElement('sp-button-group');
