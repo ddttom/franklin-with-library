@@ -572,10 +572,12 @@ export async function waitForLCP(lcpBlocks) {
  * @returns {Promise}
  */
 export function loadHeader(header) {
-  const headerBlock = buildBlock('header', '');
-  header.append(headerBlock);
-  decorateBlock(headerBlock);
-  return loadBlock(headerBlock);
+  if (header) {
+    const headerBlock = buildBlock('header', '');
+    header.append(headerBlock);
+    decorateBlock(headerBlock);
+    loadBlock(headerBlock);  
+  }
 }
 
 /**
@@ -584,10 +586,12 @@ export function loadHeader(header) {
  * @returns {Promise}
  */
 export function loadFooter(footer) {
-  const footerBlock = buildBlock('footer', '');
-  footer.append(footerBlock);
-  decorateBlock(footerBlock);
-  return loadBlock(footerBlock);
+  if (footer) {
+    const footerBlock = buildBlock('footer', '');
+    footer.append(footerBlock);
+    decorateBlock(footerBlock);
+    loadBlock(footerBlock);
+  }
 }
 
 /**
