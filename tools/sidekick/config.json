@@ -5,9 +5,7 @@
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
-      "isPalette": true,
-      "paletteRect": "top: auto; bottom: 20px; left: 20px; height: 398px; width: 360px;",
-      "url": "https://hlx.live/tools/sidekick/library?base=https://main--helix-test-content-onedrive--adobe.hlx.page/block-library-tests/library-single-sheet.json&api-test=https://main--boilerplate-with-library--dylandepass.hlx.live/tools/sidekick/plugins/api-test/api-test.js&tags=https://main--boilerplate-with-library--dylandepass.hlx.live/tools/sidekick/plugins/tags/tags.js",
+      "url": "/sidekick/library.html?api-test=https://main--boilerplate-with-library--dylandepass.hlx.live/tools/sidekick/plugins/api-test/api-test.js&tags=https://main--boilerplate-with-library--dylandepass.hlx.live/tools/sidekick/plugins/tags/tags.js",
       "includePaths": [ "**.docx**" ]
     }
   ]
