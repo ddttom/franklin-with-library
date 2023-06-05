@@ -5,7 +5,7 @@
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
-      "url": "/sidekick/library.html?api-test=https://main--boilerplate-with-library--dylandepass.hlx.live/tools/sidekick/plugins/api-test/api-test.js&tags=https://main--boilerplate-with-library--dylandepass.hlx.live/tools/sidekick/plugins/tags/tags.js",
+      "url": "/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     }
   ]
