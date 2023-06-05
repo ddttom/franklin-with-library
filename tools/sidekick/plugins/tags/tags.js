@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import { PLUGIN_EVENTS } from 'https://www.hlx.live/tools/sidekick/library/index.js';
+import { PLUGIN_EVENTS } from 'https://main--franklin-library-host--dylandepass.hlx.live/tools/sidekick/library/index.js';
 
 const selectedTags = [];
 
